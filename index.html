@@ -3,11 +3,29 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20 - Scroll base animation</title>
-    <script type="module" crossorigin src="./assets/index-3QqyNE36.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-MTcVZw43.css">
+    <title>Manifest Concrète</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <meta http-equiv="X-Clacks-Overhead" value="GNU Angelika">
+    <script type="module" crossorigin src="./assets/index-uUiNAdgv.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-6VWMEDaz.css">
   </head>
-  <body>
+  <body class="blocking">
+    <ul class="menu">
+      <li><a href="/#beginning" id="menu-beginning">beginning</a></li>
+      <li><a href="/#sensitivities" id="menu-sensitivities">sensitivities</a></li>
+      <li><a href="/#sold" id="menu-sold">sold</a></li>
+      <li><a href="/#reclaim" id="menu-reclaim">reclaim</a></li>
+      <li><a href="/#locationbased" id="menu-locationbased">locationbased</a></li>
+      <li><a href="/#spaceandtime" id="menu-spaceandtime">spaceandtime</a></li>
+      <li><a href="/#useful" id="menu-useful">useful</a></li>
+      <li><a href="/#artificialmuseum" id="menu-artificialmuseum">artificialmuseum</a></li>
+      <li><a href="/#statusquo" id="menu-statusquo">statusquo</a></li>
+      <li><a href="/#redefines" id="menu-redefines">redefines</a></li>
+      <li><a href="/#participation" id="menu-participation">participation</a></li>
+      <li><a href="/#beyond" id="menu-beyond">beyond</a></li>
+      <li><a href="/#connect" id="menu-connect">connect</a></li>
+    </ul>
+
     <!-- <div id="startButtonContainer">
         <button id="startButton">Start</button>
     </div> -->
@@ -15,94 +33,111 @@
     <canvas class="webgl"></canvas>
 
     <div class="header">
-      <div class="small">Manifest Concrète</div>
+      <div class="verySmall">Manifest Concrète</div>
+    </div>
+
+    <div class="Loading">
+      <!-- <img src="/coverManifest.jpg" alt="ManifestConcréte"> -->
+      <div class="LoadingText">
+        Manifest
+        <br>
+        Concréte
+      </div>
+
+      <div class="LoadingIndicator">
+        <div class="LoadingSpacer">
+          Loading<span class="LoadingDots">...</span>
+        </div>
+      </div>
+      <button class="LoadingButton" role="button"><span>Read >>></span></button>
     </div>
 
     <main class="bg">
-      <section class="text text-1_1">
-        <div class="big">In the beginning there <br>was the need for a <br>blank canvas,</div>
-      </section>
-
-      <section class="text text-1_2">
-        <div class="big"><br>uncolored by relationships,</div>
-      </section>
-
-      <section class="text text-2_1">
+      <section class="text" id="beginning">
+        <div class="small">
+          In the beginning there
+          <br>
+          was the need for a
+        </div>
         <div class="big">
-          where the sensitivities of <br> those in power
+          blank canvas,
+          <br>
+          uncolored by
+          <br>
+          relationships,
         </div>
       </section>
 
-      <section class="text text-2_2">
-        <div class="big">
+      <section class="text" id="sensitivities">
+        <div class="small">
+          where the sensitivities
+          <br>
+          of those in power
+          <br>
           have no effect.
         </div>
       </section>
 
-      <section class="text text-3">
+      <section class="text" id="sold">
         <div class="big">
-          The entire world<br>has already been sold.
+          The entire world
+          <br>
+          has already been sold.
         </div>
       </section>
 
-      <!-- <section class="text text-4_0">
-      </section> -->
-<!--
-      <section class="text text-4_1">
-      </section> -->
+      <section class="text" id="reclaim"></section>
+      <section class="text" id="locationbased"></section>
+      <section class="text" id="spaceandtime"></section>
+      <section class="text" id="useful"></section>
 
-      <!-- <section class="text text-4">
-        <div class="big">
-          an architecture where fiction is avoidable.
-        </div>
-      </section> -->
-
-      <section class="text text-5">
-        <div class="big">
+      <section class="text" id="artificialmuseum">
+        <div class="veryBig">
           The Artificial Museum
         </div>
       </section>
 
-      <section class="text text-6">
+      <section class="text" id="statusquo">
         <div class="big">
-          challenges the <br>status quo and
+          challenges the
+          <br>
+          status quo and
         </div>
       </section>
 
-      <section class="text text-7">
+      <section class="text" id="redefines">
         <div class="big">
-          redefines the term <br>art museum,
+          redefines the term
+          <br>
+          art museum,
         </div>
       </section>
 
-      <section class="text text-8">
+      <section class="text" id="participation">
         <div class="big">
-          as an open space, <br> that calls upon public participation,
+          as an open space,
+          <br>
+          that calls upon public participation,
         </div>
       </section>
 
-      <!-- <section class="text text-9">
+      <section class="text" id="beyond">
         <div class="big">
-          location based augmented reality artifacts
-        </div>
-      </section> -->
-
-      <section class="text text-10">
-        <div class="big">
-          all around the world <br>and beyond.
-          <!-- worldwide and beyond. -->
+          all around the world
+          <br>
+          and beyond.
         </div>
       </section>
 
-      <section class="text-button">
+      <section class="text" id="connect">
         <div class="big">
-          <button type="button">Artificial Museum</button>
+          <a class="button" href="https://artificialmuseum.com/">Artificial Museum</a>
         </div>
       </section>
     </main>
 
     <audio
-      src="./Nature_Electric.mp3"
+      src="/Nature_Electric.mp3"
       controls=""
       autoplay=""
     ></audio>
